@@ -13,3 +13,7 @@ func Minus(x, y int) int {
 func Desc() {
 	fmt.Println("calculator")
 }
+
+func Add2(x, y int) int {
+	return x + x + y + y
+}
