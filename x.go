@@ -15,5 +15,5 @@ func Desc() {
 }
 
 func Add2(x, y int) int {
-	return x + x + y + y
+	return 2 * (x + y) 
 }
